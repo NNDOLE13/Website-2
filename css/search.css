@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing: border-box;
 }
@@ -16,6 +15,7 @@ body {
 .search {
     heigth:50px;
     position: relative;
+
 }
 
 .search .btn{
