@@ -34,7 +34,12 @@ body {
 }
 
 .hero::before {
-    content: 'HELLO';
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;l
+    background-color: rgba(200, 30, 200, 0.4);
 }
 
 
