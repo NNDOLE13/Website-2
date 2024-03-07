@@ -30,7 +30,7 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 20 px;
-
+    z-index: -2;
 }
 
 .hero::before {
@@ -38,59 +38,29 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;l
-    background-color: rgba(200, 30, 200, 0.4);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero h1 {
+    font-size: 46px;
+    margin: 0 0 20px;
+}
 
 .hero p {
-    font-size: 20px
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
-.content h2, .content
+.content h2, .content h3 {
+    font-size: 150%;
+    margin: 20px 0;
+}
+
+.content p {
+    color: #555;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
