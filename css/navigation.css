@@ -18,7 +18,23 @@ body {
 }
 
 .hero {
-    background-image: url
+    background-image: url(images/nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20 px;
+
+}
+
+.hero::before {
+    content: 'HELLO';
 }
 
 
