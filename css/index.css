@@ -7,12 +7,11 @@
 
 body {
     font-family:"Ubuntu", sans-serif;
-    background-image: url(images/6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +24,11 @@ body {
 
 h1 {
     top: 0;
-    color: white;
+    color: black;
 }
 
 a {
-    color: white;
+    color: black;
     font-size: 45;
 }
 
