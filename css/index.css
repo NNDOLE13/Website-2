@@ -18,8 +18,9 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-    margin-bottom: 20 px;
+    margin: 0;
     z-index: -2;
+
 }
 
 h1 {
