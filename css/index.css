@@ -1,7 +1,7 @@
 
 
 body {
-    background: rgb(100,300,300,0.2);
+    background-image: url(images/4.jpg);
     height: 100vh;
     display: flex;
     margin: 0;
