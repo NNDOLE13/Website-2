@@ -20,6 +20,7 @@ body {
     margin: 0;
     z-index: -2;
 
+
 }
 
 h1 {
@@ -44,4 +45,5 @@ a {
     margin: 10px;
     position: relative;
     transition: flex 1s ease-in;
+
 }
