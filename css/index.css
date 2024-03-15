@@ -6,6 +6,7 @@
 }
 
 body {
+    background-image: url("images/3.jpg");
     font-family:"Ubuntu", sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,9 +24,10 @@ body {
 
 }
 
-h1 {
-    top: 0;
-    color: black;
+header h1 {
+    margin: 0;
+    right: 0;
+    color: white;
 }
 
 a {
@@ -46,4 +48,12 @@ a {
     position: relative;
     transition: flex 1s ease-in;
 
+}
+
+.toggle {
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
