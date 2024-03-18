@@ -2,17 +2,22 @@
 
 
 body {
+    background-image: url("images/sound.jpg");
     background-color: rgb(255, 200, 255);
     height: 100vh;
-    display: flex;
     align-items: center;
+    transition: transform 0.3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
     justify-content: center;
     margin: 0;
 }
 
 
 .btn {
-    background-color: rebeccapurple;
+    background-color: rgba(0,0,0, 0.7);
     font-size: 1.2rem;
     padding: 1.5rem 3rem;
     margin: 1rem;
