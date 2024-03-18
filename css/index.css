@@ -22,21 +22,6 @@ body {
 
 
 }
-bodd {
-   background-image: url("images/3.jpg");
-   font-family:"Ubuntu", sans-serif;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: bottom center;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   position: relative;
-   margin: 0;
-   z-index: -2;
-}
 
 
 body.show-nav {
