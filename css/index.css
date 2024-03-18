@@ -1,59 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
+
+
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
+
 
 body {
-    background-image: url("images/3.jpg");
-    font-family:"Ubuntu", sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    height: 100vh;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin: 0;
-    z-index: -2;
+   background-image: url("images/3.jpg");
+   font-family:"Ubuntu", sans-serif;
+   transition: transform 0.3s ease;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   position: relative;
+   height: 100vh;
+   justify-content: center;
+   margin: 0;
 
 
 }
+bodd {
+   background-image: url("images/3.jpg");
+   font-family:"Ubuntu", sans-serif;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom center;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   margin: 0;
+   z-index: -2;
+}
+
+
+body.show-nav {
+   transform: translateX(200px);
+}
+
 
 header h1 {
-    margin: 0;
-    right: 0;
-    color: white;
+   top: 50px;
+   color: white;
+   font-size: 50px;
+   display: flex;
 }
 
-a {
-    color: white;
-    font-size: 45;
+
+nav {
+   background-color:var(--primary-color);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 200px;
+   height: 100%;
+   border-right: 2px solid rgba(200,200,200,0.1);
+   z-index: 100;
+   color: white;
+   transform: translateX(-100%);
 }
+
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+
+nav ul li{
+   padding: 20px;
+   border-bottom: 2px solid rgba(200,200,200,0.1);
+}
+
+
+nav ul li:nth-of-type(1) {
+   border-top: 2px solid rgba(200,200,200,0.1);
+}
+
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+
+nav ul li a:hover {
+   text-decoration: underline;
+}
+
 
 .panel {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 8vh;
-    border-radius: 50px;
-    color: white;
-    cursor: pointer;
-    flex: 0.5;
-    margin: 10px;
-    position: relative;
-    transition: flex 1s ease-in;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 8vh;
+   border-radius: 50px;
+   color: white;
+   cursor: pointer;
+   flex: 0.5;
+   margin: 10px;
+   position: relative;
+   transition: flex 1s ease-in;
+
 
 }
 
+
 .toggle {
-    background-color: rgba(0,0,0,0.0);
-    border: none;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+   background-color: rgba(0,0,0,0.0);
+   border: none;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   color: white;
 }
